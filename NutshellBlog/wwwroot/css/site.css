@@ -1,0 +1,134 @@
+﻿a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#z-nav {
+    padding: 0px;
+    height: 100%;
+    border-right: 1px solid #eee;
+}
+
+#z-post {
+    height: 2550px;
+}
+
+#z-copyright {
+    padding-right: 10px;
+    font-size: .82em;
+    color: #666;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.p-l-10 {
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.p-l-20 {
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.p-r-10 {
+    padding: 0px;
+    padding-right: 10px;
+}
+
+.p-r-20 {
+    padding: 0px;
+    padding-right: 20px;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+#icon-group {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin: 0px 50px;
+}
+
+#sidebar-social-list {
+    text-align: center;
+    padding: 0px;
+}
+
+    #sidebar-social-list li {
+        margin: 0 3px 0 0;
+        display: inline-block;
+    }
+
+        #sidebar-social-list li a {
+            border: none;
+            line-height: 35px;
+            font-size: 16px;
+            color: #777;
+            display: block;
+            width: 35px;
+            height: 35px;
+            -webkit-transition: all 100ms linear;
+            -o-transition: all 100ms linear;
+            transition: all 100ms linear;
+            border-radius: 35px;
+        }
+            #sidebar-social-list li a:hover {
+                color: #fff;
+            }
+            #sidebar-social-list li a.fa-facebook:hover {
+                background: #3b5998;
+            }
+            #sidebar-social-list li a.fa-github:hover {
+                background: #777;
+            }
+            #sidebar-social-list li a.fa-weibo:hover {
+                background: #e6162d;
+            }
+            #sidebar-social-list li a.fa-rss:hover {
+                background: #c87723;
+            }
+            #sidebar-social-list li a.fa-twitter:hover {
+                background: #1da1f3;
+            }
+
+#nav-list {
+    text-align: center;
+    padding: 0px;
+    margin-right: 0px;
+}
+
+    #nav-list li {
+        padding: 4px 0px;
+    }
+
+        #nav-list li a {
+            font-weight: bold;
+            color: #777;
+            font-size: 1em;
+            -webkit-transition: all 100ms linear;
+            -o-transition: all 100ms linear;
+            transition: all 100ms linear;
+        }
+
+            #nav-list li a:hover {
+                color: #000;
+            }
